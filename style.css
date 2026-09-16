@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 450px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 12px;
+}
+
+input {
+    width: 250px;
+    padding: 6px;
+    margin-bottom: 2px;
+}
+
+button {
+    margin-top: 8px;
+    padding: 7px 18px;
+}

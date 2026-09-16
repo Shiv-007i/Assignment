@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+    }
+
+    #result {
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #score {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    </style>
+</head>
+<body>
+
+    <div id="result">
+        <h1>Quiz Score</h1>
+
+        <br><br>
+
+        <p>you scored</p>
+
+        <h2 id="score"></h2>
+    </div>
+        
+
+    <script>
+        let score = localStorage.getItem("score");
+
+        document.getElementById("score").innerHTML = score + "/5";
+    </script>
+</body>
+</html>
